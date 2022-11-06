@@ -8,6 +8,18 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Other metavar JS/TS",
+			"scope": [
+				"variable.other.property.js",
+				"variable.other.property.ts",
+				"variable.other.object.property.js",
+				"variable.other.object.property.ts"
+			],
+			"settings": {
+				"foreground": "#7ab780",
+			}
+		},
+		{
 			"name" : "JSON Bool",
 			"scope" : "constant.language.json.comments",
 			"settings": {
@@ -41,7 +53,7 @@
 				"entity.name.type.c",
 			],
 			"settings": {
-				"foreground": "#80b895",
+				"foreground": "#7ab780",
 			}
 		},
 		{
@@ -77,7 +89,7 @@
 			"name": "Python number",
 			"scope": "storage.type.number.python",
 			"settings": {
-				"foreground": "#B5CEA8",
+				"foreground": "#7ab780",
 			}
 		},
 		{
