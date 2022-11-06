@@ -16,6 +16,13 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Afterglow-color-theme.json"
       }
+    ],
+    "iconThemes": [
+      {
+        "id": "afterglow-seti",
+        "label": "%themeLabel%",
+        "path": "./fileicons/mytheme.json"
+      }
     ]
   }
 }
