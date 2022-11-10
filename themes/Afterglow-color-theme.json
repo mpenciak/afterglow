@@ -8,6 +8,20 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Lean 4 constants",
+			"scope": "constant.language.lean4",
+			"settings": {
+				"foreground": "#977ab6"
+			}
+		},
+		{
+			"name": "Lean 4 entity names",
+			"scope": "entity.name.lean4",
+			"settings": {
+				"foreground": "#599a6b"
+			}
+		},
+		{
 			"name": "Other metavar JS/TS",
 			"scope": [
 				"variable.other.property.js",
