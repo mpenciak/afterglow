@@ -605,10 +605,11 @@
 		{
 			"name": "Keywords",
 			"scope": [
-				"keyword.other.lean4"
+				"keyword.other.lean4",
+				"keyword.other.definitioncommand.lean4"
 			],
 			"settings": {
-				"foreground": "#FFFFFF",
+				"foreground": "#547C99",
 			}
 		},
 		{
