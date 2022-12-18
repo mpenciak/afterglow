@@ -8,6 +8,108 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Latex footnote",
+			"scope": "entity.name.footnote.latex",
+			"settings": {
+				"foreground": "#989898",
+			}
+		},
+		{
+			"name": "Latex support function",
+			"scope": [
+				"support.function.general.latex",
+				"support.class.math.block.tex",
+				"support.class.math.block.environment.latex",
+				"support.class.math.block.environment.tex"
+			],
+			"settings": {
+				"foreground": "#80b8b3",
+			}
+		},
+		{
+			"name": "Latex storage type",
+			"scope": [
+				"storage.type.function.latex",
+				"variable.parameter.function.latex",
+			],
+			"settings": {
+				"foreground": "#6cb0bb",
+			}
+		},
+		{
+			"name": "Latex keyword",
+			"scope": ["punctuation.definition.keyword.latex",
+					  "keyword.control.ref.latex",
+					  "keyword.control.cite.latex",
+					  "keyword.control.label.latex",
+					  "keyword.control.equation.newline.latex",
+					  "keyword.control.equation.align.latex",
+					  "keyword.other.item.latex",
+			],
+			"settings": {
+				"foreground": "#9F4E84",
+			}
+		},
+		{
+			"name": "Latex references",
+			"scope": [
+				"constant.other.reference.label.latex",
+				"constant.other.reference.citation.latex"
+			],
+			"settings": {
+				"foreground": "#5BB4AD",
+			}
+		},
+		{
+			"name": "Latex punctuation",
+			"scope": ["punctuation.definition.string.begin.tex",
+					  "punctuation.definition.string.end.tex",
+					  "punctuation.definition.string.begin.latex",
+					  "punctuation.definition.string.end.latex"
+			],
+			"settings": {
+				"foreground": "#80b8b3",
+			}
+		},
+		{
+			"name": "Latex support function",
+			"scope": [
+				"support.function.general.tex",
+				"support.function.be.latex",
+				"support.function.section.latex"
+			],
+			"settings": {
+				"foreground": "#c88f33",
+			}
+		},
+		{
+			"name": "Latex parameter",
+			"scope": [
+				"constant.character.math.tex"
+			],
+			"settings": {
+				"foreground": "#547C99",
+			}
+		},
+		{
+			"name": "Latex class name",
+			"scope": ["support.class.latex",
+			],
+			"settings": {
+				"foreground": "#5BB4AD",
+			}
+		},
+		{
+			"name": "Latex preamble command",
+			"scope": [
+				"keyword.control.preamble.latex",
+				"support.function.marginpar.latex",
+			],
+			"settings": {
+				"foreground": "#B54C47",
+			}
+		},
+		{
 			"name": "Lean 4 constants",
 			"scope": "constant.language.lean4",
 			"settings": {
@@ -577,7 +679,6 @@
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
-				"punctuation",
 				"meta.tag",
 				"punctuation.definition.tag",
 				"punctuation.separator.inheritance.php",
