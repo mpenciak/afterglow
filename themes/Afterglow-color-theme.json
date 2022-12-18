@@ -50,6 +50,20 @@
 			}
 		},
 		{
+			"name": "Bibtex key",
+			"scope": "support.function.key.bibtex",
+			"settings": {
+				"foreground": "#D3A04D",
+			}
+		},
+		{
+			"name": "Bibtex entry",
+			"scope": "entity.name.type.entry-key.bibtex",
+			"settings": {
+				"foreground": "#80b8b3",
+			}
+		},
+		{
 			"name": "Latex footnote",
 			"scope": "entity.name.footnote.latex",
 			"settings": {
