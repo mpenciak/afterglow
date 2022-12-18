@@ -8,6 +8,48 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Haskell namespace",
+			"scope": "entity.name.namespace.haskell",
+			"settings": {
+				"foreground": "#7ab780",
+			}
+		},
+		{
+			"name": "Haskell case keyword",
+			"scope": [
+				"keyword.control.case.haskell",
+				"keyword.control.do.haskell",
+			],
+			"settings": {
+				"foreground": "#9F4E84",
+			}
+		},
+		{
+			"name": "Haskell data keyword",
+			"scope": "keyword.other.data.haskell",
+			"settings": {
+				// "foreground": "#FF0000",
+			}
+		},
+		{
+			"name": "Haskell variable",
+			"scope": [
+				"variable.other.generic-type.haskell",
+				"variable.other.member.definition.haskell",
+				"variable.other.member.haskell",
+			],
+			"settings": {
+				"foreground": "#80b8b3",
+			}
+		},
+		{
+			"name": "Haskell storage",
+			"scope": "storage.type.haskell",
+			"settings": {
+				"foreground": "#6C99BB",
+			}
+		},
+		{
 			"name": "Latex footnote",
 			"scope": "entity.name.footnote.latex",
 			"settings": {
