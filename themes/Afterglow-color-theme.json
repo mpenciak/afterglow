@@ -8,6 +8,49 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Solidity scopes",
+			"scope": [
+				"storage.type.modifier.access",
+				"storage.type.modifier.extendedscope"
+			],
+			"settings": {
+				"foreground": "#B54C47",
+			}
+		},
+		{
+			"name": "Solidity contract",
+			"scope": [
+			"storage.type.constructor",
+			"storage.type.contract",
+			"storage.type.function",
+			"keyword.control.flow.return",
+			"keyword.control.flow",
+			"storage.type.struct"
+			],
+			"settings": {
+				"foreground": "#547C99",
+			}
+		},
+		{
+			"name": "Solidity namespace",
+			"scope": [
+				"entity.name.type.interface",
+				"entity.name.type.contract",
+			],
+			"settings": {
+				"foreground": "#7AB780",
+			}
+		},
+		{	
+			"name": "Solidity pragma",
+			"scope": [
+				"keyword.control.pragma",
+				"keyword.control.import",],
+			"settings": {
+				"foreground": "#9F4E84",
+			}	
+		},
+		{
 			"name": "Haskell namespace",
 			"scope": "entity.name.namespace.haskell",
 			"settings": {
